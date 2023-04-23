@@ -18,13 +18,13 @@ public class Laberinto {
     private short [][] laberinto;
     
     public Laberinto() {
-        System.out.println("Nuevo laberinto de tamaño " + alto + " por " + largo);
+        System.out.println("Nuevo laberinto de tamaño  " + alto + " por " + largo);
         
         laberinto = new short[largo + 2][alto + 2];
         
         for (int i = 0; i< largo + 2; i++) {
             for (int j = 0; j < alto + 2; j++) {
-                laberinto[i][j] = 0;
+                laberinto[i][j] = 0; 
             }
         }
         

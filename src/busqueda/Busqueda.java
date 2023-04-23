@@ -27,7 +27,7 @@ public class Busqueda {
       
     b=  lab.getValor(0, 0);
     
-       System.out.println("Laberinto " + b +" valor");
+       System.out.println("Laberinto " + b );
     }
     
 }
